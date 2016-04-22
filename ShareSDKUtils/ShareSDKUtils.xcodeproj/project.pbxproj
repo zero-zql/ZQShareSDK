@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		378FB5821CC9C60C00E0DEE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 378FB5811CC9C60C00E0DEE7 /* main.m */; };
+		378FB5851CC9C60C00E0DEE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 378FB5841CC9C60C00E0DEE7 /* AppDelegate.m */; };
+		378FB5881CC9C60C00E0DEE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 378FB5871CC9C60C00E0DEE7 /* ViewController.m */; };
+		378FB58B1CC9C60C00E0DEE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378FB5891CC9C60C00E0DEE7 /* Main.storyboard */; };
+		378FB58D1CC9C60C00E0DEE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378FB58C1CC9C60C00E0DEE7 /* Assets.xcassets */; };
+		378FB5901CC9C60C00E0DEE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378FB58E1CC9C60C00E0DEE7 /* LaunchScreen.storyboard */; };
+		378FB59B1CC9C60C00E0DEE7 /* ShareSDKUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 378FB59A1CC9C60C00E0DEE7 /* ShareSDKUtilsTests.m */; };
+		378FB5A61CC9C60C00E0DEE7 /* ShareSDKUtilsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 378FB5A51CC9C60C00E0DEE7 /* ShareSDKUtilsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		378FB5971CC9C60C00E0DEE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 378FB5751CC9C60C00E0DEE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 378FB57C1CC9C60C00E0DEE7;
+			remoteInfo = ShareSDKUtils;
+		};
+		378FB5A21CC9C60C00E0DEE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 378FB5751CC9C60C00E0DEE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 378FB57C1CC9C60C00E0DEE7;
+			remoteInfo = ShareSDKUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		378FB57D1CC9C60C00E0DEE7 /* ShareSDKUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareSDKUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		378FB5811CC9C60C00E0DEE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		378FB5831CC9C60C00E0DEE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		378FB5841CC9C60C00E0DEE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		378FB5861CC9C60C00E0DEE7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		378FB5871CC9C60C00E0DEE7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		378FB58A1CC9C60C00E0DEE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		378FB58C1CC9C60C00E0DEE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		378FB58F1CC9C60C00E0DEE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		378FB5911CC9C60C00E0DEE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378FB5961CC9C60C00E0DEE7 /* ShareSDKUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareSDKUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		378FB59A1CC9C60C00E0DEE7 /* ShareSDKUtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareSDKUtilsTests.m; sourceTree = "<group>"; };
+		378FB59C1CC9C60C00E0DEE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378FB5A11CC9C60C00E0DEE7 /* ShareSDKUtilsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareSDKUtilsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		378FB5A51CC9C60C00E0DEE7 /* ShareSDKUtilsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareSDKUtilsUITests.m; sourceTree = "<group>"; };
+		378FB5A71CC9C60C00E0DEE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		378FB57A1CC9C60C00E0DEE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378FB5931CC9C60C00E0DEE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378FB59E1CC9C60C00E0DEE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		378FB5741CC9C60C00E0DEE7 = {
+			isa = PBXGroup;
+			children = (
+				378FB57F1CC9C60C00E0DEE7 /* ShareSDKUtils */,
+				378FB5991CC9C60C00E0DEE7 /* ShareSDKUtilsTests */,
+				378FB5A41CC9C60C00E0DEE7 /* ShareSDKUtilsUITests */,
+				378FB57E1CC9C60C00E0DEE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		378FB57E1CC9C60C00E0DEE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				378FB57D1CC9C60C00E0DEE7 /* ShareSDKUtils.app */,
+				378FB5961CC9C60C00E0DEE7 /* ShareSDKUtilsTests.xctest */,
+				378FB5A11CC9C60C00E0DEE7 /* ShareSDKUtilsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		378FB57F1CC9C60C00E0DEE7 /* ShareSDKUtils */ = {
+			isa = PBXGroup;
+			children = (
+				378FB5831CC9C60C00E0DEE7 /* AppDelegate.h */,
+				378FB5841CC9C60C00E0DEE7 /* AppDelegate.m */,
+				378FB5861CC9C60C00E0DEE7 /* ViewController.h */,
+				378FB5871CC9C60C00E0DEE7 /* ViewController.m */,
+				378FB5891CC9C60C00E0DEE7 /* Main.storyboard */,
+				378FB58C1CC9C60C00E0DEE7 /* Assets.xcassets */,
+				378FB58E1CC9C60C00E0DEE7 /* LaunchScreen.storyboard */,
+				378FB5911CC9C60C00E0DEE7 /* Info.plist */,
+				378FB5801CC9C60C00E0DEE7 /* Supporting Files */,
+			);
+			path = ShareSDKUtils;
+			sourceTree = "<group>";
+		};
+		378FB5801CC9C60C00E0DEE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				378FB5811CC9C60C00E0DEE7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		378FB5991CC9C60C00E0DEE7 /* ShareSDKUtilsTests */ = {
+			isa = PBXGroup;
+			children = (
+				378FB59A1CC9C60C00E0DEE7 /* ShareSDKUtilsTests.m */,
+				378FB59C1CC9C60C00E0DEE7 /* Info.plist */,
+			);
+			path = ShareSDKUtilsTests;
+			sourceTree = "<group>";
+		};
+		378FB5A41CC9C60C00E0DEE7 /* ShareSDKUtilsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				378FB5A51CC9C60C00E0DEE7 /* ShareSDKUtilsUITests.m */,
+				378FB5A71CC9C60C00E0DEE7 /* Info.plist */,
+			);
+			path = ShareSDKUtilsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		378FB57C1CC9C60C00E0DEE7 /* ShareSDKUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378FB5AA1CC9C60C00E0DEE7 /* Build configuration list for PBXNativeTarget "ShareSDKUtils" */;
+			buildPhases = (
+				378FB5791CC9C60C00E0DEE7 /* Sources */,
+				378FB57A1CC9C60C00E0DEE7 /* Frameworks */,
+				378FB57B1CC9C60C00E0DEE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareSDKUtils;
+			productName = ShareSDKUtils;
+			productReference = 378FB57D1CC9C60C00E0DEE7 /* ShareSDKUtils.app */;
+			productType = "com.apple.product-type.application";
+		};
+		378FB5951CC9C60C00E0DEE7 /* ShareSDKUtilsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378FB5AD1CC9C60C00E0DEE7 /* Build configuration list for PBXNativeTarget "ShareSDKUtilsTests" */;
+			buildPhases = (
+				378FB5921CC9C60C00E0DEE7 /* Sources */,
+				378FB5931CC9C60C00E0DEE7 /* Frameworks */,
+				378FB5941CC9C60C00E0DEE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				378FB5981CC9C60C00E0DEE7 /* PBXTargetDependency */,
+			);
+			name = ShareSDKUtilsTests;
+			productName = ShareSDKUtilsTests;
+			productReference = 378FB5961CC9C60C00E0DEE7 /* ShareSDKUtilsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		378FB5A01CC9C60C00E0DEE7 /* ShareSDKUtilsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378FB5B01CC9C60C00E0DEE7 /* Build configuration list for PBXNativeTarget "ShareSDKUtilsUITests" */;
+			buildPhases = (
+				378FB59D1CC9C60C00E0DEE7 /* Sources */,
+				378FB59E1CC9C60C00E0DEE7 /* Frameworks */,
+				378FB59F1CC9C60C00E0DEE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				378FB5A31CC9C60C00E0DEE7 /* PBXTargetDependency */,
+			);
+			name = ShareSDKUtilsUITests;
+			productName = ShareSDKUtilsUITests;
+			productReference = 378FB5A11CC9C60C00E0DEE7 /* ShareSDKUtilsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		378FB5751CC9C60C00E0DEE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zero;
+				TargetAttributes = {
+					378FB57C1CC9C60C00E0DEE7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					378FB5951CC9C60C00E0DEE7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 378FB57C1CC9C60C00E0DEE7;
+					};
+					378FB5A01CC9C60C00E0DEE7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 378FB57C1CC9C60C00E0DEE7;
+					};
+				};
+			};
+			buildConfigurationList = 378FB5781CC9C60C00E0DEE7 /* Build configuration list for PBXProject "ShareSDKUtils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 378FB5741CC9C60C00E0DEE7;
+			productRefGroup = 378FB57E1CC9C60C00E0DEE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				378FB57C1CC9C60C00E0DEE7 /* ShareSDKUtils */,
+				378FB5951CC9C60C00E0DEE7 /* ShareSDKUtilsTests */,
+				378FB5A01CC9C60C00E0DEE7 /* ShareSDKUtilsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		378FB57B1CC9C60C00E0DEE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378FB5901CC9C60C00E0DEE7 /* LaunchScreen.storyboard in Resources */,
+				378FB58D1CC9C60C00E0DEE7 /* Assets.xcassets in Resources */,
+				378FB58B1CC9C60C00E0DEE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378FB5941CC9C60C00E0DEE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378FB59F1CC9C60C00E0DEE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		378FB5791CC9C60C00E0DEE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378FB5881CC9C60C00E0DEE7 /* ViewController.m in Sources */,
+				378FB5851CC9C60C00E0DEE7 /* AppDelegate.m in Sources */,
+				378FB5821CC9C60C00E0DEE7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378FB5921CC9C60C00E0DEE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378FB59B1CC9C60C00E0DEE7 /* ShareSDKUtilsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378FB59D1CC9C60C00E0DEE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378FB5A61CC9C60C00E0DEE7 /* ShareSDKUtilsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		378FB5981CC9C60C00E0DEE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 378FB57C1CC9C60C00E0DEE7 /* ShareSDKUtils */;
+			targetProxy = 378FB5971CC9C60C00E0DEE7 /* PBXContainerItemProxy */;
+		};
+		378FB5A31CC9C60C00E0DEE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 378FB57C1CC9C60C00E0DEE7 /* ShareSDKUtils */;
+			targetProxy = 378FB5A21CC9C60C00E0DEE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		378FB5891CC9C60C00E0DEE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378FB58A1CC9C60C00E0DEE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		378FB58E1CC9C60C00E0DEE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378FB58F1CC9C60C00E0DEE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		378FB5A81CC9C60C00E0DEE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		378FB5A91CC9C60C00E0DEE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		378FB5AB1CC9C60C00E0DEE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareSDKUtils/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..ShareSDKUtils;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		378FB5AC1CC9C60C00E0DEE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareSDKUtils/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..ShareSDKUtils;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		378FB5AE1CC9C60C00E0DEE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShareSDKUtilsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..ShareSDKUtilsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareSDKUtils.app/ShareSDKUtils";
+			};
+			name = Debug;
+		};
+		378FB5AF1CC9C60C00E0DEE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShareSDKUtilsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..ShareSDKUtilsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareSDKUtils.app/ShareSDKUtils";
+			};
+			name = Release;
+		};
+		378FB5B11CC9C60C00E0DEE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShareSDKUtilsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..ShareSDKUtilsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareSDKUtils;
+			};
+			name = Debug;
+		};
+		378FB5B21CC9C60C00E0DEE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShareSDKUtilsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..ShareSDKUtilsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareSDKUtils;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		378FB5781CC9C60C00E0DEE7 /* Build configuration list for PBXProject "ShareSDKUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378FB5A81CC9C60C00E0DEE7 /* Debug */,
+				378FB5A91CC9C60C00E0DEE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378FB5AA1CC9C60C00E0DEE7 /* Build configuration list for PBXNativeTarget "ShareSDKUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378FB5AB1CC9C60C00E0DEE7 /* Debug */,
+				378FB5AC1CC9C60C00E0DEE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		378FB5AD1CC9C60C00E0DEE7 /* Build configuration list for PBXNativeTarget "ShareSDKUtilsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378FB5AE1CC9C60C00E0DEE7 /* Debug */,
+				378FB5AF1CC9C60C00E0DEE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		378FB5B01CC9C60C00E0DEE7 /* Build configuration list for PBXNativeTarget "ShareSDKUtilsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378FB5B11CC9C60C00E0DEE7 /* Debug */,
+				378FB5B21CC9C60C00E0DEE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 378FB5751CC9C60C00E0DEE7 /* Project object */;
+}
