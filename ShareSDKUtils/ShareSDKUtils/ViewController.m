@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    xxx 
+    xxx 看家分店开
 }
 
 - (void)didReceiveMemoryWarning {
